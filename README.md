@@ -10,10 +10,10 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 :white_check_mark: Fully studied
 
 # Study log
-April 26th, 2020 - Spent around 3 hours studying
-April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
-April 19th, 2020 - Spent around 4 hours studying
-April 5th, 2020 - Started to study. Spent around 3 hours studying the basic concepts (many of that I already knew)
+- April 26th, 2020 - Spent around 3 hours studying
+- April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
+- April 19th, 2020 - Spent around 4 hours studying
+- April 5th, 2020 - Started to study. Spent around 3 hours studying the basic concepts (many of that I already knew)
 
 # My study plan
 
@@ -54,7 +54,7 @@ April 5th, 2020 - Started to study. Spent around 3 hours studying the basic conc
 
 *   2.1 Planning and estimating GCP product use using the Pricing Calculator :white_check_mark:
     *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
-    *   [https://www.youtube.com/watch?v=N2OG1w6bGFo](https://www.youtube.com/watch?v=N2OG1w6bGFo&feature=youtu.be)
+    *   [Google Cloud Platform on a shoestring budget (Google I/O '18)](https://www.youtube.com/watch?v=N2OG1w6bGFo&feature=youtu.be)
 *   2.2 Planning and configuring compute resources :white_check_mark:
     *   Selecting appropriate compute choices for a given workload (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)
         *   [Deciding between Compute Engine, Container Engine, App Engine and more (Google Cloud Next '17)](https://www.youtube.com/watch?v=g0dN8Hkh5H8)
@@ -62,7 +62,7 @@ April 5th, 2020 - Started to study. Spent around 3 hours studying the basic conc
         *   [https://cloud.google.com/run](https://cloud.google.com/run)
         *   [Quickstarts | Cloud Run Documentation](https://cloud.google.com/run/docs/quickstarts)
         *   [The Good and the Bad of Google Cloud Run](https://read.acloud.guru/the-good-and-the-bad-of-google-cloud-run-34455e673ef5)
-        *   [https://cloud.google.com/functions](https://cloud.google.com/functions/?&utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-b-dr-1008075-LUAC0008673&utm_content=text-ad-none-none-DEV_c-CRE_429691579873-ADGP_BKWS+%7C+Multi+~+Compute+%7C+Functions-KWID_43700046780193860-kwd-808554695722-userloc_1001575&utm_term=KW_%2Bgoogle%20%2Bfunctions-ST_%2BGoogle+%2BFunctions&gclid=CjwKCAjwg6b0BRBMEiwANd1_SG94_8UoelcnURy-YK5XEbBVIhUgR-MuUrch1iX3BJGDKQlu-K2P8hoClRwQAvD_BwE&gclsrc=aw.ds)
+        *   [Cloud Functions](https://cloud.google.com/functions/?&utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-b-dr-1008075-LUAC0008673&utm_content=text-ad-none-none-DEV_c-CRE_429691579873-ADGP_BKWS+%7C+Multi+~+Compute+%7C+Functions-KWID_43700046780193860-kwd-808554695722-userloc_1001575&utm_term=KW_%2Bgoogle%20%2Bfunctions-ST_%2BGoogle+%2BFunctions&gclid=CjwKCAjwg6b0BRBMEiwANd1_SG94_8UoelcnURy-YK5XEbBVIhUgR-MuUrch1iX3BJGDKQlu-K2P8hoClRwQAvD_BwE&gclsrc=aw.ds)
     *   Using preemptible VMs and custom machine types as appropriate
         *   [Preemptible VM instances | Compute Engine Documentation](https://cloud.google.com/compute/docs/instances/preemptible)
         *   [Machine types | Compute Engine Documentation](https://cloud.google.com/compute/docs/machine-types)
