@@ -6,15 +6,18 @@ I got the idea to organize content like that from [João Vitor Guimarães](https
 
 It's not a ready document, I'm writing as I study, and pushing here (weekly preferably).
 
+:ballot_box_with_check: Partially studied
+:white_check_mark: Fully studied
+
 # My study plan
 
-## 1. Setting up a cloud solution environment
+## 1. Setting up a cloud solution environment :white_check_mark:
 
-*   1.1 Setting up cloud projects and accounts. Activities include:
+*   1.1 Setting up cloud projects and accounts :white_check_mark:
     *   Creating projects
-        *   [gcloud projects create | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/projects/create)
+        *   [gcloud projects create](https://cloud.google.com/sdk/gcloud/reference/projects/create)
     *   Assigning users to predefined IAM roles within a project
-        *   [gcloud projects add-iam-policy-binding | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding)
+        *   [gcloud projects add-iam-policy-binding](https://cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding)
         *   [Understanding policies | Cloud IAM Documentation](https://cloud.google.com/iam/docs/policies)
         *   [Policy | Cloud IAM Documentation](https://cloud.google.com/iam/docs/reference/rest/v1/Policy)
     *   Managing users in Cloud Identity (manually and automated)
@@ -26,27 +29,27 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Provisioning one or more Stackdriver workspaces
         *   [Workspaces | Cloud Monitoring](https://cloud.google.com/monitoring/workspaces/)
         *   [https://cloud.google.com/monitoring/workspaces/create](https://cloud.google.com/monitoring/workspaces/create)
-*   1.2 Managing billing configuration. Activities include:
+*   1.2 Managing billing configuration :white_check_mark:
     *   Creating one or more billing accounts
         *   [Create, modify, or close your Cloud Billing account](https://cloud.google.com/billing/docs/how-to/manage-billing-account)
     *   Linking projects to a billing account
-        *   [gcloud beta billing projects link | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/beta/billing/projects/link)
+        *   [gcloud beta billing projects link](https://cloud.google.com/sdk/gcloud/reference/beta/billing/projects/link)
     *   Establishing billing budgets and alerts
         *   [Set budgets and budget alerts | Cloud Billing](https://cloud.google.com/billing/docs/how-to/budgets)
     *   Setting up billing exports to estimate daily/monthly charges
         *   [Export Cloud Billing data to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery)
-*   1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project).
-        *   [gcloud command-line tool overview | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud)
-        *   [Installing Google Cloud SDK | Cloud SDK Documentation](https://cloud.google.com/sdk/install)
-        *   [gcloud config set | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/config/set)
+*   1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project) :white_check_mark:
+        *   [gcloud command-line tool overview](https://cloud.google.com/sdk/gcloud)
+        *   [Installing Google Cloud SDK](https://cloud.google.com/sdk/install)
+        *   [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set)
 
 
 ### 2. Planning and configuring a cloud solution
 
-*   2.1 Planning and estimating GCP product use using the Pricing Calculator
+*   2.1 Planning and estimating GCP product use using the Pricing Calculator :white_check_mark:
         *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
         *   [https://www.youtube.com/watch?v=N2OG1w6bGFo](https://www.youtube.com/watch?v=N2OG1w6bGFo&feature=youtu.be)
-*   2.2 Planning and configuring compute resources. Considerations include:
+*   2.2 Planning and configuring compute resources :white_check_mark:
     *   Selecting appropriate compute choices for a given workload (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)
         *   [Deciding between Compute Engine, Container Engine, App Engine and more (Google Cloud Next '17)](https://www.youtube.com/watch?v=g0dN8Hkh5H8)
         *   [Get to know Google App Engine](https://www.youtube.com/watch?v=2PRciDpqpko)
@@ -57,7 +60,7 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Using preemptible VMs and custom machine types as appropriate
         *   [Preemptible VM instances | Compute Engine Documentation](https://cloud.google.com/compute/docs/instances/preemptible)
         *   [Machine types | Compute Engine Documentation](https://cloud.google.com/compute/docs/machine-types)
-*   2.3 Planning and configuring data storage options. Considerations include:
+*   2.3 Planning and configuring data storage options :white_check_mark:
     *   Product choice (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Bigtable)
         *   [BigQuery documentation](https://cloud.google.com/bigquery/docs)
         *   [Cloud Spanner | Automatic Sharding with Transactional Consistency at Scale](https://cloud.google.com/spanner)
@@ -104,31 +107,31 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 
 ### 4. Ensuring successful operation of a cloud solution
 
-*   4.1 Managing Compute Engine resources. Tasks include:
+*   4.1 Managing Compute Engine resources :ballot_box_with_check:
     *   Managing a single VM instance (e.g., start, stop, edit configuration, or delete an instance)
-        *   [gcloud compute instances start | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/start)
-        *   [gcloud compute instances list | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/list)
-        *   [gcloud compute instances describe | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe)
-        *   [gcloud compute instances stop | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/stop)
-        *   [gcloud compute instances delete | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/delete)
-        *   [gcloud compute instances update | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/update)
+        *   [gcloud compute instances start](https://cloud.google.com/sdk/gcloud/reference/compute/instances/start)
+        *   [gcloud compute instances list](https://cloud.google.com/sdk/gcloud/reference/compute/instances/list)
+        *   [gcloud compute instances describe](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe)
+        *   [gcloud compute instances stop](https://cloud.google.com/sdk/gcloud/reference/compute/instances/stop)
+        *   [gcloud compute instances delete](https://cloud.google.com/sdk/gcloud/reference/compute/instances/delete)
+        *   [gcloud compute instances update](https://cloud.google.com/sdk/gcloud/reference/compute/instances/update)
     *   SSH/RDP to the instance
         *   [Connecting to instances | Compute Engine Documentation](https://cloud.google.com/compute/docs/instances/connecting-to-instance)
     *   Attaching a GPU to a new instance and installing CUDA libraries
         *   [Adding or removing GPUs | Compute Engine Documentation](https://cloud.google.com/compute/docs/gpus/add-gpus)
     *   Viewing current running VM inventory (instance IDs, details)
-        *   [gcloud compute instances describe | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe)
+        *   [gcloud compute instances describe](https://cloud.google.com/sdk/gcloud/reference/compute/instances/describe)
     *   Working with snapshots (e.g., create a snapshot from a VM, view snapshots, delete a snapshot)
         *   [Creating persistent disk snapshots | Compute Engine Documentation](https://cloud.google.com/compute/docs/disks/create-snapshots)
         *   [Creating scheduled snapshots for persistent disk](https://cloud.google.com/compute/docs/disks/scheduled-snapshots)
-        *   [gcloud compute snapshots list | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/snapshots/list)
+        *   [gcloud compute snapshots list](https://cloud.google.com/sdk/gcloud/reference/compute/snapshots/list)
         *   [Restoring and deleting persistent disk snapshots](https://cloud.google.com/compute/docs/disks/restore-and-delete-snapshots)
         *   [Best practices for persistent disk snapshots](https://cloud.google.com/compute/docs/disks/snapshot-best-practices)
     *   Working with images (e.g., create an image from a VM or a snapshot, view images, delete an image)
         *   [Images | Compute Engine Documentation](https://cloud.google.com/compute/docs/images)
-        *   [gcloud compute images create | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/images/create)
-        *   [gcloud compute images list | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/images/list)
-        *   [gcloud compute images delete | Cloud SDK Documentation](https://cloud.google.com/sdk/gcloud/reference/compute/images/delete)
+        *   [gcloud compute images create](https://cloud.google.com/sdk/gcloud/reference/compute/images/create)
+        *   [gcloud compute images list](https://cloud.google.com/sdk/gcloud/reference/compute/images/list)
+        *   [gcloud compute images delete](https://cloud.google.com/sdk/gcloud/reference/compute/images/delete)
     *   Working with instance groups (e.g., set autoscaling parameters, assign instance template, create an instance template, remove instance group)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, GCloud SDK)
 *   4.2 Managing Google Kubernetes Engine resources. Tasks include:
@@ -169,14 +172,28 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 
 ### 5. Configuring access and security
 
-*   5.1 Managing identity and access management (IAM). 
+*   5.1 Managing identity and access management (IAM) :white_check_mark:
     *   Viewing IAM role assignments
+        * [gcloud projects get-iam-policy](https://cloud.google.com/sdk/gcloud/reference/projects/get-iam-policy)
+        * [gcloud organizations get-iam-policy](https://cloud.google.com/sdk/gcloud/reference/organizations/get-iam-policy)
     *   Assigning IAM roles to accounts or Google Groups
+        * [gcloud projects add-iam-policy-binding](https://cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding)
+        * [gcloud projects set-iam-policy](https://cloud.google.com/sdk/gcloud/reference/projects/set-iam-policy)
+        * [gcloud projects remove-iam-policy-binding](https://cloud.google.com/sdk/gcloud/reference/projects/remove-iam-policy-binding)
     *   Defining custom IAM roles
-    *   Extra Resources
-        *   [Resource Hierarchy | Resource Manager Documentation](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
-*   5.2 Managing service accounts. Tasks include:
+        * [Better Practices for Cloud IAM (Cloud Next '18)](https://www.youtube.com/watch?v=ZMC8Ng3E3LQ)
+        * [Google Cloud: IAM and Organization Node](https://www.youtube.com/watch?v=etxbSda_ZAU)
+        * [Understanding IAM custom roles](https://cloud.google.com/iam/docs/understanding-custom-roles)
+        * [gcloud iam roles](https://cloud.google.com/sdk/gcloud/reference/iam/roles/)
+        * [Creating and managing custom roles](https://cloud.google.com/iam/docs/creating-custom-roles)
+        * [REST Resource: projects.roles](https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles)
+        * [gcloud iam roles update](https://cloud.google.com/sdk/gcloud/reference/iam/roles/update)
+
+*   5.2 Managing service accounts  :white_check_mark:
     *   Managing service accounts with limited privileges
+        * [Service accounts](https://cloud.google.com/compute/docs/access/service-accounts)
     *   Assigning a service account to VM instances
+        * [Creating and enabling service accounts for instances](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances)
     *   Granting access to a service account in another project
+        * [Cross project management using service account](https://stackoverflow.com/questions/35479025/cross-project-management-using-service-account)
 *   5.3 Viewing audit logs for project and managed services.
