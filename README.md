@@ -6,8 +6,14 @@ I got the idea to organize content like that from [João Vitor Guimarães](https
 
 It's not a ready document, I'm writing as I study, and pushing here (weekly preferably).
 
-:ballot_box_with_check: Partially studied
+:ballot_box_with_check: Partially studied  
 :white_check_mark: Fully studied
+
+# Study log
+April 26th, 2020 - Spent around 3 hours studying
+April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
+April 19th, 2020 - Spent around 4 hours studying
+April 5th, 2020 - Started to study. Spent around 3 hours studying the basic concepts (many of that I already knew)
 
 # My study plan
 
@@ -38,17 +44,17 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         *   [Set budgets and budget alerts | Cloud Billing](https://cloud.google.com/billing/docs/how-to/budgets)
     *   Setting up billing exports to estimate daily/monthly charges
         *   [Export Cloud Billing data to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery)
-*   1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project) :white_check_mark:
-        *   [gcloud command-line tool overview](https://cloud.google.com/sdk/gcloud)
-        *   [Installing Google Cloud SDK](https://cloud.google.com/sdk/install)
-        *   [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set)
+*   1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK (e.g., setting the default project) :white_check_mark:   
+    *   [gcloud command-line tool overview](https://cloud.google.com/sdk/gcloud)
+    *   [Installing Google Cloud SDK](https://cloud.google.com/sdk/install)
+    *   [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set)
 
 
 ### 2. Planning and configuring a cloud solution
 
 *   2.1 Planning and estimating GCP product use using the Pricing Calculator :white_check_mark:
-        *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
-        *   [https://www.youtube.com/watch?v=N2OG1w6bGFo](https://www.youtube.com/watch?v=N2OG1w6bGFo&feature=youtu.be)
+    *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
+    *   [https://www.youtube.com/watch?v=N2OG1w6bGFo](https://www.youtube.com/watch?v=N2OG1w6bGFo&feature=youtu.be)
 *   2.2 Planning and configuring compute resources :white_check_mark:
     *   Selecting appropriate compute choices for a given workload (e.g., Compute Engine, Google Kubernetes Engine, App Engine, Cloud Run, Cloud Functions)
         *   [Deciding between Compute Engine, Container Engine, App Engine and more (Google Cloud Next '17)](https://www.youtube.com/watch?v=g0dN8Hkh5H8)
