@@ -10,6 +10,7 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 :white_check_mark: Fully studied
 
 # Study log
+- May 3th, 2020 - Spent around 2 hours studying
 - April 26th, 2020 - Spent around 3 hours studying
 - April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
 - April 19th, 2020 - Spent around 4 hours studying
@@ -81,13 +82,27 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 
 ### 3. Deploying and implementing a cloud solution
 
-*   3.1 Deploying and implementing Compute Engine resources. Tasks include:
+*   3.1 Deploying and implementing Compute Engine resources. :white_check_mark:
     *   Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)
+        * [gcloud compute instances create](https://cloud.google.com/sdk/gcloud/reference/compute/instances/create)
+        * [gcloud compute disks create](https://cloud.google.com/sdk/gcloud/reference/compute/disks/create)
+        * [gcloud compute instances attach-disk](https://cloud.google.com/sdk/gcloud/reference/compute/instances/attach-disk)
+        * [Setting instance availability policies](https://cloud.google.com/compute/docs/instances/setting-instance-scheduling-options)
     *   Creating an autoscaled managed instance group using an instance template
+        * [Instance groups](https://cloud.google.com/compute/docs/instance-groups/)
+        * [Creating managed instance groups](https://cloud.google.com/compute/docs/instance-groups/creating-groups-of-managed-instances)
+        * [Setting up health checking and autohealing](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
     *   Generating/uploading a custom SSH key for instances
+        * [Managing SSH keys in metadata](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys)
     *   Configuring a VM for Stackdriver monitoring and logging
     *   Assessing compute quotas and requesting increases
+        * [Resource quotas](https://cloud.google.com/compute/quotas)
+        * [Quotas](https://console.cloud.google.com/iam-admin/quotas)
     *   Installing the Stackdriver Agent for monitoring and logging
+        * [Installing the Cloud Logging agent](https://cloud.google.com/logging/docs/agent/installation)
+        * [Installing the Cloud Monitoring agent](https://cloud.google.com/monitoring/agent/install-agent)
+
+    
 *   3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
     *   Deploying a Google Kubernetes Engine cluster
     *   Deploying a container application to Google Kubernetes Engine using pods
