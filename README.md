@@ -154,6 +154,9 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         *   [gcloud compute images list](https://cloud.google.com/sdk/gcloud/reference/compute/images/list)
         *   [gcloud compute images delete](https://cloud.google.com/sdk/gcloud/reference/compute/images/delete)
     *   Working with instance groups (e.g., set autoscaling parameters, assign instance template, create an instance template, remove instance group)
+        * [Instance groups](https://cloud.google.com/compute/docs/instance-groups/)
+        * [Creating managed instance groups](https://cloud.google.com/compute/docs/instance-groups/creating-groups-of-managed-instances)
+        * [Setting up health checking and autohealing](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, GCloud SDK)
 *   4.2 Managing Google Kubernetes Engine resources. Tasks include:
     *   Viewing current running cluster inventory (nodes, pods, services)
