@@ -10,7 +10,8 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 :white_check_mark: Fully studied
 
 # Study log
-- May 3th, 2020 - Spent around 2 hours studying
+- June 13th, 2020 - Spent around 2 hours studying
+- May 3rd, 2020 - Spent around 2 hours studying
 - April 26th, 2020 - Spent around 3 hours studying
 - April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
 - April 19th, 2020 - Spent around 4 hours studying
@@ -128,7 +129,7 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
 
 ### 4. Ensuring successful operation of a cloud solution
 
-*   4.1 Managing Compute Engine resources :ballot_box_with_check:
+*   4.1 Managing Compute Engine resources :white_check_mark:
     *   Managing a single VM instance (e.g., start, stop, edit configuration, or delete an instance)
         *   [gcloud compute instances start](https://cloud.google.com/sdk/gcloud/reference/compute/instances/start)
         *   [gcloud compute instances list](https://cloud.google.com/sdk/gcloud/reference/compute/instances/list)
@@ -157,7 +158,12 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         * [Instance groups](https://cloud.google.com/compute/docs/instance-groups/)
         * [Creating managed instance groups](https://cloud.google.com/compute/docs/instance-groups/creating-groups-of-managed-instances)
         * [Setting up health checking and autohealing](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
-    *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, GCloud SDK)
+    *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
+        * [Cloud SDK](https://cloud.google.com/sdk)
+        * [Cloud Console](https://cloud.google.com/cloud-console)
+        * [Cloud Shell](https://cloud.google.com/shell)
+        * [Cloud management tools](https://cloud.google.com/products/management)
+        * [Google Cloud Platform(GCP) Certification Series: 1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK](https://medium.com/@prashantapaudel/google-cloud-platform-gcp-certification-series-1-3-6cdc9358672d)
 *   4.2 Managing Google Kubernetes Engine resources. Tasks include:
     *   Viewing current running cluster inventory (nodes, pods, services)
     *   Browsing the container image repository and viewing container image details
@@ -184,17 +190,31 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Expanding a subnet to have more IP addresses
     *   Reserving static external or internal IP addresses
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-*   4.6 Monitoring and logging. Tasks include:
+*   4.6 Monitoring and logging. :white_check_mark:
     *   Creating Stackdriver alerts based on resource metrics
+        * [Can you alert on logs in Stackdriver?](https://medium.com/google-cloud/can-you-alert-on-logs-in-stackdriver-7dfb07f495c0)
     *   Creating Stackdriver custom metrics
+        * [Creating custom metrics](https://cloud.google.com/monitoring/custom-metrics/creating-metrics)
     *   Configuring log sinks to export logs to external systems (e.g., on-premises or BigQuery)
+        * [Overview of logs exports](https://cloud.google.com/logging/docs/export)
+        * [Creating sinks](https://cloud.google.com/logging/docs/export/configure_export_v2#dest-create)
     *   Viewing and filtering logs in Stackdriver
+        * [Logs Viewer (Preview) overview](https://cloud.google.com/logging/docs/view/logs-viewer-preview)
     *   Viewing specific log message details in Stackdriver
+        * [Logs Viewer (Preview) interface](https://cloud.google.com/logging/docs/view/logs-viewer-interface)
     *   Using cloud diagnostics to research an application issue (e.g., viewing Cloud Trace data, using Cloud Debug to view an application point-in-time)
+        * [Cloud Trace  - Quickstart](https://cloud.google.com/trace/docs/quickstart)
+        * [Debugger - Overview](https://cloud.google.com/debugger/docs/setup#getting_started)
     *   Viewing Google Cloud Platform status
+        * [Google Cloud Status Dashboard](https://status.cloud.google.com/)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
+        * [Cloud SDK](https://cloud.google.com/sdk)
+        * [Cloud Console](https://cloud.google.com/cloud-console)
+        * [Cloud Shell](https://cloud.google.com/shell)
+        * [Cloud management tools](https://cloud.google.com/products/management)
+        * [Google Cloud Platform(GCP) Certification Series: 1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK](https://medium.com/@prashantapaudel/google-cloud-platform-gcp-certification-series-1-3-6cdc9358672d)
 
-### 5. Configuring access and security
+### 5. Configuring access and security  :white_check_mark:
 
 *   5.1 Managing identity and access management (IAM) :white_check_mark:
     *   Viewing IAM role assignments
@@ -212,7 +232,6 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         * [Creating and managing custom roles](https://cloud.google.com/iam/docs/creating-custom-roles)
         * [REST Resource: projects.roles](https://cloud.google.com/iam/docs/reference/rest/v1/projects.roles)
         * [gcloud iam roles update](https://cloud.google.com/sdk/gcloud/reference/iam/roles/update)
-
 *   5.2 Managing service accounts  :white_check_mark:
     *   Managing service accounts with limited privileges
         * [Service accounts](https://cloud.google.com/compute/docs/access/service-accounts)
@@ -220,4 +239,5 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         * [Creating and enabling service accounts for instances](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances)
     *   Granting access to a service account in another project
         * [Cross project management using service account](https://stackoverflow.com/questions/35479025/cross-project-management-using-service-account)
-*   5.3 Viewing audit logs for project and managed services.
+*   5.3 Viewing audit logs for project and managed services  :white_check_mark:
+    * [Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)
