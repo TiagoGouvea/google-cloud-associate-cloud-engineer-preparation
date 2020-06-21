@@ -4,18 +4,31 @@ This is a list of useful contents to be used while studying to [Associate Cloud 
 
 I got the idea to organize content like that from [João Vitor Guimarães](https://twitter.com/joaovitor) Medium [post](https://medium.com/@joaovitor/associate-cloud-engineer-study-guide-cf7e74da1bb6).
 
-It's not a ready document, I'm writing as I study, and pushing here (weekly preferably).
+A great reference to related content should be [sathishvj/awesome-gcp-certifications](https://github.com/sathishvj/awesome-gcp-certifications/blob/master/associate-cloud-engineer.md) repository listing many useful resources.
+
+I received access to Pluralsight and Qwiklabs for free in a Google Developer Groups promotion, but I didn't use it because I fell I learn better reading. 😬
+
+For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcharts/) has a collection of them.  
+ 
 
 :ballot_box_with_check: Partially studied  
 :white_check_mark: Fully studied
 
 # Study log
+- June 21st, 2020 - Spent around 2 hours studying
 - June 13th, 2020 - Spent around 2 hours studying
 - May 3rd, 2020 - Spent around 2 hours studying
 - April 26th, 2020 - Spent around 3 hours studying
 - April 25th, 2020 - Having studied around 40% of the content, took the [practice exam](https://cloud.google.com/certification/practice-exam/cloud-engineer) and got 11 of the 23 questions right. Proportional, I guess. :)  
 - April 19th, 2020 - Spent around 4 hours studying
 - April 5th, 2020 - Started to study. Spent around 3 hours studying the basic concepts (many of that I already knew)
+
+# Need study more
+
+- [ ] IAM and permissions (console and command line)
+- [ ] Monitoring
+- [ ] Cloud Pub/Sub
+- [ ] Different storage options
 
 # My study plan
 
@@ -52,7 +65,7 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set)
 
 
-### 2. Planning and configuring a cloud solution
+### 2. Planning and configuring a cloud solution :ballot_box_with_check:
 
 *   2.1 Planning and estimating GCP product use using the Pricing Calculator :white_check_mark:
     *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
@@ -81,7 +94,7 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Identifying resource locations in a network for availability
     *   Configuring Cloud DNS
 
-### 3. Deploying and implementing a cloud solution
+### 3. Deploying and implementing a cloud solution :ballot_box_with_check:
 
 *   3.1 Deploying and implementing Compute Engine resources. :white_check_mark:
     *   Launching a compute instance using Cloud Console and Cloud SDK (gcloud) (e.g., assign disks, availability policy, SSH keys)
@@ -103,7 +116,6 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
         * [Installing the Cloud Logging agent](https://cloud.google.com/logging/docs/agent/installation)
         * [Installing the Cloud Monitoring agent](https://cloud.google.com/monitoring/agent/install-agent)
 
-    
 *   3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
     *   Deploying a Google Kubernetes Engine cluster
     *   Deploying a container application to Google Kubernetes Engine using pods
@@ -113,6 +125,16 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
 *   3.4 Deploying and implementing data solutions. Tasks include:
     *   Initializing data systems with products (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)
+        * [Cloud SQL - Creating instances](https://cloud.google.com/sql/docs/mysql/create-instance#gcloud)
+        * [Cloud Spanner - Creating and managing instances](https://cloud.google.com/spanner/docs/create-manage-instances)
+        * [Datastore - Quickstart](https://cloud.google.com/datastore/docs/quickstart)
+        * [Cloud Bigtable](https://cloud.google.com/bigtable/docs)
+        * [BigQuery](https://cloud.google.com/bigquery/docs)
+        * [MemoryStore](https://cloud.google.com/memorystore/docs/)
+        * [Dataproc](https://cloud.google.com/dataproc)
+        * [Dataflow](https://cloud.google.com/dataflow/docs/)
+        * [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/)
+        * [Cloud Tasks](https://cloud.google.com/tasks/docs/)
     *   Loading data (e.g., command line upload, API transfer, import/export, load data from Cloud Storage, streaming data to Cloud Pub/Sub)
 *   3.5 Deploying and implementing networking resources. Tasks include:
     *   Creating a VPC with subnets (e.g., custom-mode VPC, shared VPC)
@@ -122,12 +144,13 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)
 *   3.6 Deploying a solution using Cloud Marketplace. Tasks include:
     *   Browsing Cloud Marketplace catalog and viewing solution details
+        *[Cloud Marketplace](https://cloud.google.com/marketplace)
     *   Deploying a Cloud Marketplace solution
 *   3.7 Deploying application infrastructure using Cloud Deployment Manager. Tasks include:
     *   Developing Deployment Manager templates
     *   Launching a Deployment Manager template
 
-### 4. Ensuring successful operation of a cloud solution
+### 4. Ensuring successful operation of a cloud solution :ballot_box_with_check:
 
 *   4.1 Managing Compute Engine resources :white_check_mark:
     *   Managing a single VM instance (e.g., start, stop, edit configuration, or delete an instance)
@@ -178,8 +201,16 @@ It's not a ready document, I'm writing as I study, and pushing here (weekly pref
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
 *   4.4 Managing storage and database solutions. Tasks include:
     *   Moving objects between Cloud Storage buckets
+        * [Moving and renaming buckets](https://cloud.google.com/storage/docs/moving-buckets)
     *   Converting Cloud Storage buckets between storage classes
+        * [Changing the default storage class of a bucket](https://cloud.google.com/storage/docs/changing-default-storage-class)
+        * [Changing object storage classes](https://cloud.google.com/storage/docs/changing-storage-classes)
+        * [Storage classes](https://cloud.google.com/storage/docs/storage-classes)
     *   Setting object life cycle management policies for Cloud Storage buckets
+        * [Object Lifecycle Management](https://cloud.google.com/storage/docs/lifecycle)
+        * [Managing object lifecycles](https://cloud.google.com/storage/docs/managing-lifecycles)
+        * [Object Versioning](https://cloud.google.com/storage/docs/object-versioning)
+        * [Retention policies and Bucket Lock](https://cloud.google.com/storage/docs/bucket-lock)
     *   Executing queries to retrieve data from data instances (e.g., Cloud SQL, BigQuery, Cloud Spanner, Cloud Datastore, Cloud Bigtable)
     *   Estimating costs of a BigQuery query
     *   Backing up and restoring data instances (e.g., Cloud SQL, Cloud Datastore)
