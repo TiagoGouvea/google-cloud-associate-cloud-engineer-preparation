@@ -15,6 +15,7 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
 :white_check_mark: Fully studied
 
 # Study log
+- August 30th, 2020 - Spent around 2 hours studying
 - June 21st, 2020 - Spent around 2 hours studying
 - June 13th, 2020 - Spent around 2 hours studying
 - May 3rd, 2020 - Spent around 2 hours studying
@@ -23,12 +24,15 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
 - April 19th, 2020 - Spent around 4 hours studying
 - April 5th, 2020 - Started to study. Spent around 3 hours studying the basic concepts (many of that I already knew)
 
-# Need study more
-
-- [ ] IAM and permissions (console and command line)
-- [ ] Monitoring
-- [ ] Cloud Pub/Sub
-- [ ] Different storage options
+## Before test
+- [ ] Review choose right services for each needs (add one new section)
+- [ ] Review different storage options
+- [ ] Review cloud Pub/Sub
+- [ ] Review load balancing
+- [ ] Read all commands to remember; [list 1](https://gist.github.com/pydevops/cffbd3c694d599c6ca18342d3625af97#0165-ssh--scp), [list 2](https://github.com/dennyzhang/cheatsheet-gcp-A4)
+- [ ] Review Cloud Run, App Engine auto-scaling
+- [ ] Review IAM and permissions (console and command line)
+- [ ] Review Monitoring
 
 # My study plan
 
@@ -64,8 +68,7 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   [Installing Google Cloud SDK](https://cloud.google.com/sdk/install)
     *   [gcloud config set](https://cloud.google.com/sdk/gcloud/reference/config/set)
 
-
-### 2. Planning and configuring a cloud solution :ballot_box_with_check:
+### 2. Planning and configuring a cloud solution :white_check_mark:
 
 *   2.1 Planning and estimating GCP product use using the Pricing Calculator :white_check_mark:
     *   [Google Cloud Platform Pricing Calculator](https://cloud.google.com/products/calculator/)
@@ -77,7 +80,7 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
         *   [https://cloud.google.com/run](https://cloud.google.com/run)
         *   [Quickstarts | Cloud Run Documentation](https://cloud.google.com/run/docs/quickstarts)
         *   [The Good and the Bad of Google Cloud Run](https://read.acloud.guru/the-good-and-the-bad-of-google-cloud-run-34455e673ef5)
-        *   [Cloud Functions](https://cloud.google.com/functions/?&utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-b-dr-1008075-LUAC0008673&utm_content=text-ad-none-none-DEV_c-CRE_429691579873-ADGP_BKWS+%7C+Multi+~+Compute+%7C+Functions-KWID_43700046780193860-kwd-808554695722-userloc_1001575&utm_term=KW_%2Bgoogle%20%2Bfunctions-ST_%2BGoogle+%2BFunctions&gclid=CjwKCAjwg6b0BRBMEiwANd1_SG94_8UoelcnURy-YK5XEbBVIhUgR-MuUrch1iX3BJGDKQlu-K2P8hoClRwQAvD_BwE&gclsrc=aw.ds)
+        *   [Cloud Functions](https://cloud.google.com/functions/)
     *   Using preemptible VMs and custom machine types as appropriate
         *   [Preemptible VM instances | Compute Engine Documentation](https://cloud.google.com/compute/docs/instances/preemptible)
         *   [Machine types | Compute Engine Documentation](https://cloud.google.com/compute/docs/machine-types)
@@ -89,10 +92,16 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Choosing storage options (e.g., Standard, Nearline, Coldline, Archive)
         *   [https://cloud.google.com/storage/docs/introduction](https://cloud.google.com/storage/docs/introduction)
         *   [Storage classes | Cloud Storage](https://cloud.google.com/storage/docs/storage-classes)
-*   2.4 Planning and configuring network resources. Tasks include:
+*   2.4 Planning and configuring network resources. :white_check_mark:
     *   Differentiating load balancing options
+        * [Choosing load balancer](https://cloud.google.com/load-balancing/docs/choosing-load-balancer)
+        * [Load balancing overview](https://cloud.google.com/load-balancing/docs/load-balancing-overview)
+        * [Planning and configuring network resources](https://medium.com/@prashantapaudel/gcp-certification-series-2-4-planning-and-configuring-network-resources-8045ac2cc2ac)
+        * [Internal Load Balacing in 5 mins](https://cloud.google.com/files/internal-load-balancing-tutorial-slides.pdf)
     *   Identifying resource locations in a network for availability
+        * [Geography and regions](https://cloud.google.com/docs/geography-and-regions)
     *   Configuring Cloud DNS
+        * [Cloud DNS - quickstart](https://cloud.google.com/dns/docs/quickstart)
 
 ### 3. Deploying and implementing a cloud solution :ballot_box_with_check:
 
@@ -115,14 +124,22 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Installing the Stackdriver Agent for monitoring and logging
         * [Installing the Cloud Logging agent](https://cloud.google.com/logging/docs/agent/installation)
         * [Installing the Cloud Monitoring agent](https://cloud.google.com/monitoring/agent/install-agent)
-
 *   3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
     *   Deploying a Google Kubernetes Engine cluster
     *   Deploying a container application to Google Kubernetes Engine using pods
     *   Configuring Google Kubernetes Engine application monitoring and logging
-*   3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources. Tasks include, where applicable:
+*   3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources.  :white_check_mark:
     *   Deploying an application, updating scaling configuration, versions, and traffic splitting
+        * [App Engine - Docs](https://cloud.google.com/appengine/docs)
+        * [App Engine - Deploying (python)](https://cloud.google.com/appengine/docs/standard/python/getting-started/deploying-the-application)
+        * [App Engine - Config (scaling)](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+        * [gcloud app services set-traffic](https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic)
+        * [Cloud Run - Build and deploy](https://cloud.google.com/run/docs/quickstarts/build-and-deploy)
+        * [Cloud Function - quick start (node)](https://cloud.google.com/functions/docs/quickstart-nodejs)
     *   Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
+        * [Pub/Sub - Tutorials](https://cloud.google.com/functions/docs/tutorials/pubsub)
+        * [Pub/Sub - Storage triggers](https://cloud.google.com/functions/docs/calling/storage)
+        
 *   3.4 Deploying and implementing data solutions. Tasks include:
     *   Initializing data systems with products (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)
         * [Cloud SQL - Creating instances](https://cloud.google.com/sql/docs/mysql/create-instance#gcloud)
@@ -195,11 +212,14 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Working with services (e.g., add, edit, or remove a service)
     *   Working with stateful applications (e.g. persistent volumes, stateful sets)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-*   4.3 Managing App Engine and Cloud Run resources. Tasks include:
+*   4.3 Managing App Engine and Cloud Run resources.  :white_check_mark:
     *   Adjusting application traffic splitting parameters
+        * [gcloud app services set-traffic](https://cloud.google.com/sdk/gcloud/reference/app/services/set-traffic)
     *   Setting scaling parameters for autoscaling instances
+        * [App Engine - Config (scaling)](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+        * [Cloud Run - autoscaling](https://cloud.google.com/run/docs/about-instance-autoscaling)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
-*   4.4 Managing storage and database solutions. Tasks include:
+*   4.4 Managing storage and database solutions. 
     *   Moving objects between Cloud Storage buckets
         * [Moving and renaming buckets](https://cloud.google.com/storage/docs/moving-buckets)
     *   Converting Cloud Storage buckets between storage classes
