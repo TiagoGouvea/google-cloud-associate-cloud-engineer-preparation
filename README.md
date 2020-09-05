@@ -15,6 +15,7 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
 :white_check_mark: Fully studied
 
 # Study log
+- September 5th, 2020 - Spent around 1 hours studying
 - August 30th, 2020 - Spent around 2 hours studying
 - June 21st, 2020 - Spent around 2 hours studying
 - June 13th, 2020 - Spent around 2 hours studying
