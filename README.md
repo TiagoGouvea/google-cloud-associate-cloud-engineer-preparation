@@ -124,10 +124,16 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Installing the Stackdriver Agent for monitoring and logging
         * [Installing the Cloud Logging agent](https://cloud.google.com/logging/docs/agent/installation)
         * [Installing the Cloud Monitoring agent](https://cloud.google.com/monitoring/agent/install-agent)
-*   3.2 Deploying and implementing Google Kubernetes Engine resources. Tasks include:
+*   3.2 Deploying and implementing Google Kubernetes Engine resources. :white_check_mark:
     *   Deploying a Google Kubernetes Engine cluster
+        * [Creating a cluster](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster)
+        * [Cluster Architecture](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture)
     *   Deploying a container application to Google Kubernetes Engine using pods
+        * [Pod Concepts](https://cloud.google.com/kubernetes-engine/docs/concepts/pod)
+        * [Deployment Concepts](https://cloud.google.com/kubernetes-engine/docs/concepts/deployment)
+        * [Deploying a container](https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app)
     *   Configuring Google Kubernetes Engine application monitoring and logging
+        * [Kubernetes Logging Stackdriver](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-stackdriver/)
 *   3.3 Deploying and implementing App Engine, Cloud Run, and Cloud Functions resources.  :white_check_mark:
     *   Deploying an application, updating scaling configuration, versions, and traffic splitting
         * [App Engine - Docs](https://cloud.google.com/appengine/docs)
@@ -139,7 +145,6 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Deploying an application that receives Google Cloud events (e.g., Cloud Pub/Sub events, Cloud Storage object change notification events)
         * [Pub/Sub - Tutorials](https://cloud.google.com/functions/docs/tutorials/pubsub)
         * [Pub/Sub - Storage triggers](https://cloud.google.com/functions/docs/calling/storage)
-        
 *   3.4 Deploying and implementing data solutions. Tasks include:
     *   Initializing data systems with products (e.g., Cloud SQL, Cloud Datastore, BigQuery, Cloud Spanner, Cloud Pub/Sub, Cloud Bigtable, Cloud Dataproc, Cloud Dataflow, Cloud Storage)
         * [Cloud SQL - Creating instances](https://cloud.google.com/sql/docs/mysql/create-instance#gcloud)
@@ -159,9 +164,9 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
     *   Creating ingress and egress firewall rules for a VPC (e.g., IP subnets, tags, service accounts)
     *   Creating a VPN between a Google VPC and an external network using Cloud VPN
     *   Creating a load balancer to distribute application network traffic to an application (e.g., Global HTTP(S) load balancer, Global SSL Proxy load balancer, Global TCP Proxy load balancer, regional network load balancer, regional internal load balancer)
-*   3.6 Deploying a solution using Cloud Marketplace. Tasks include:
-    *   Browsing Cloud Marketplace catalog and viewing solution details
-        *[Cloud Marketplace](https://cloud.google.com/marketplace)
+*   3.6 Deploying a solution using Cloud Marketplace.  :white_check_mark:
+    *   Browsing Cloud Marketplace catalog and viewing solution details   
+        * [Cloud Marketplace](https://cloud.google.com/marketplace)
     *   Deploying a Cloud Marketplace solution
 *   3.7 Deploying application infrastructure using Cloud Deployment Manager. Tasks include:
     *   Developing Deployment Manager templates
@@ -204,13 +209,22 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
         * [Cloud Shell](https://cloud.google.com/shell)
         * [Cloud management tools](https://cloud.google.com/products/management)
         * [Google Cloud Platform(GCP) Certification Series: 1.3 Installing and configuring the command line interface (CLI), specifically the Cloud SDK](https://medium.com/@prashantapaudel/google-cloud-platform-gcp-certification-series-1-3-6cdc9358672d)
-*   4.2 Managing Google Kubernetes Engine resources. Tasks include:
+*   4.2 Managing Google Kubernetes Engine resources. :white_check_mark:
     *   Viewing current running cluster inventory (nodes, pods, services)
+        * [Cluster lists](https://cloud.google.com/sdk/gcloud/reference/container/clusters/list)
+        * [Kubectl describe](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe)
     *   Browsing the container image repository and viewing container image details
     *   Working with node pools (e.g., add, edit, or remove a node pool)
+        * [Working with Node pools](https://cloud.google.com/kubernetes-engine/docs/how-to/node-pools)
     *   Working with pods (e.g., add, edit, or remove pods)
+        * [Kubernetes - Pods](https://kubernetes.io/docs/concepts/workloads/pods/)
+        * [Pods](https://cloud.google.com/kubernetes-engine/docs/concepts/pod)
     *   Working with services (e.g., add, edit, or remove a service)
+        * [Kubernetes - Service](https://kubernetes.io/docs/concepts/services-networking/service/)
+        * [GCP - Service](https://cloud.google.com/kubernetes-engine/docs/concepts/service)
     *   Working with stateful applications (e.g. persistent volumes, stateful sets)
+        * [Kubernetes - Statefull](https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set/)
+        * [GCP - Statefull](https://cloud.google.com/kubernetes-engine/docs/concepts/statefulset#overview)
     *   Working with management interfaces (e.g., Cloud Console, Cloud Shell, Cloud SDK)
 *   4.3 Managing App Engine and Cloud Run resources.  :white_check_mark:
     *   Adjusting application traffic splitting parameters
@@ -292,3 +306,9 @@ For whom likes flowcharts, [this post](https://grumpygrace.dev/posts/gcp-flowcha
         * [Cross project management using service account](https://stackoverflow.com/questions/35479025/cross-project-management-using-service-account)
 *   5.3 Viewing audit logs for project and managed services  :white_check_mark:
     * [Cloud Audit Logs](https://cloud.google.com/logging/docs/audit)
+
+# Additional diagrams
+
+*Planning and configuring data storage options*:   
+![](https://miro.medium.com/max/700/0*-UaBVOTmLSrnQNre)
+
